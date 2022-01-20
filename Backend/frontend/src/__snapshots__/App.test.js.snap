@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="Itunes"
+>
+  <form
+    className=""
+    id="formName"
+  >
+    <div>
+      <h3
+        id="title"
+      >
+        Itunes search bar
+      </h3>
+      <label
+        className="form-label"
+      >
+        Search your favorite items from itunes:
+      </label>
+      <input
+        className="form-control"
+        id="search"
+        name="search"
+        onChange={[Function]}
+        placeholder="Search..."
+        type="text"
+      />
+      <div>
+        <select
+          id="mediaType"
+          onChange={[Function]}
+        >
+          <option
+            value="movie"
+          >
+            movie
+          </option>
+          <option
+            value="podcast"
+          >
+            podcast
+          </option>
+          <option
+            value="music"
+          >
+            music
+          </option>
+          <option
+            value="audiobook"
+          >
+            audiobook
+          </option>
+          <option
+            value="shortFilm"
+          >
+            short film
+          </option>
+          <option
+            value="tvSeason"
+          >
+            TV show
+          </option>
+          <option
+            value="software"
+          >
+            software
+          </option>
+          <option
+            value="ebook"
+          >
+            ebook
+          </option>
+          <option
+            value="all"
+          >
+            all
+          </option>
+        </select>
+      </div>
+    </div>
+    <button
+      className="btn btn-primary"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      Search
+    </button>
+  </form>
+  <div
+    className="itemsContainer"
+  />
+</div>
+`;
+
+exports[`snapshot test 1`] = `
+<div
+  className="Itunes"
+>
+  <form
+    className=""
+    id="formName"
+  >
+    <div>
+      <h3
+        id="title"
+      >
+        Itunes search bar
+      </h3>
+      <label
+        className="form-label"
+      >
+        Search your favorite items from itunes:
+      </label>
+      <input
+        className="form-control"
+        id="search"
+        name="search"
+        onChange={[Function]}
+        placeholder="Search..."
+        type="text"
+      />
+      <div>
+        <select
+          id="mediaType"
+          onChange={[Function]}
+        >
+          <option
+            value="movie"
+          >
+            movie
+          </option>
+          <option
+            value="podcast"
+          >
+            podcast
+          </option>
+          <option
+            value="music"
+          >
+            music
+          </option>
+          <option
+            value="audiobook"
+          >
+            audiobook
+          </option>
+          <option
+            value="shortFilm"
+          >
+            short film
+          </option>
+          <option
+            value="tvSeason"
+          >
+            TV show
+          </option>
+          <option
+            value="software"
+          >
+            software
+          </option>
+          <option
+            value="ebook"
+          >
+            ebook
+          </option>
+          <option
+            value="all"
+          >
+            all
+          </option>
+        </select>
+      </div>
+    </div>
+    <button
+      className="btn btn-primary"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      Search
+    </button>
+  </form>
+  <div
+    className="itemsContainer"
+  />
+</div>
+`;
