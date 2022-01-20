@@ -20,6 +20,9 @@ const uri = 'mongodb+srv://admin:Password@hyperion-task.cwxa2.mongodb.net/test?r
 mongoose.connect
 
 
+// Have Node serve the files for our built React app
+app.use(express.static(path.resolve(__dirname, '../frontend/build')));
+
 // middleware
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
