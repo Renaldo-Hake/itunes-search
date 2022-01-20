@@ -21,7 +21,7 @@ mongoose.connect
 
 
 // Have Node serve the files for our built React app
-app.use(express.static(path.resolve(__dirname, '../frontend/src/index.js')));
+app.use(express.static(path.resolve(__dirname, './frontend/src/index.js')));
 
 // middleware
 app.use(bodyParser.urlencoded({ extended: true }))
