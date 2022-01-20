@@ -23,6 +23,7 @@
     "supertest": "^6.1.6"
   },
   "engines": {
-    "node": "your-node-version"
+    "node": "16.13.1",
+    "npm": "8.1.2"
   }
 }
